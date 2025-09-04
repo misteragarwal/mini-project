@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM_color_changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Background Color Selector</h2>
+    <div class="color-picker">
+        <button class="box" id="box1" onclick="applygivencolor(this)" value="red"></button>
+        <button class="box" id="box2" onclick="applygivencolor(this)" value="yellow"></button>
+        <button class="box" id="box3" onclick="applygivencolor(this)" value="purple"></button>
+        <button class="box" id="box4" onclick="applygivencolor(this)" value="skyblue"></button>
+    </div>
+    <div id="div2">
+        <input type="text" id="name" placeholder="Enter a color">
+        <button onclick="applycolor()">update</button>
+    </div>
+    <div>
+        <span class="button" id="green"></span>
+        <span class="button" id="black"></span>
+        <span class="button" id="maroon"></span>
+        <span class="button" id="white"></span>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
