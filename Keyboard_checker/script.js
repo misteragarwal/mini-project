@@ -1,0 +1,16 @@
+window.addEventListener("keydown", function (e) {
+  const parent = document.querySelector("#keys");
+  parent.innerHTML = `
+        <table>
+            <tr>
+                <th>key</th>
+                <th>keycode</th>
+                <th>code</th>
+            </tr>
+            <tr>
+                <td>${e.key === " " ? "space" : e.key}</td>
+                <td>${e.keyCode}</td>
+                <td>${e.code}</td>
+        </table>
+        `;
+});

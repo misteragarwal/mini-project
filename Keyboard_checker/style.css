@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#center{
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+    width:80vw;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(59, 58, 58);
+}
+table,th,td,tr{
+    border: 2px solid red;
+    text-align: center;
+}
